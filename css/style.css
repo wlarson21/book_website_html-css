@@ -1,0 +1,276 @@
+﻿a:link{
+	color:black;/*all links are black instead of blue */
+	text-decoration: none;/* removes the underline from all links */
+	}
+a:visited{
+	color:black;
+	}
+ul{
+	list-style-type: none;
+
+	}
+
+body{
+	max-width: 55em;
+	margin-right: auto;
+	
+	margin-left: auto;
+	font-family: ariel;
+	background: linear-gradient(to top, steelblue, aliceblue);
+	
+	}
+div{
+	max-width: 55em;
+	box-shadow: 2px 2px 2px #999;
+	background-color: white;
+	padding:1em;
+	clear: both;
+	}
+body h1{
+	text-align: center;
+	font-size: 1.5em;
+	color:dimgrey;
+	text-shadow: 2px 2px #c8c8c8;
+	text-transform: uppercase;
+	}
+
+header img{
+		max-width: 100%;
+	}
+
+header ol{
+	
+	border-top: 3px solid blue;
+	border-bottom: 1px solid #c8c8c8;
+	padding-left: 0;
+	text-transform: uppercase;
+	background: #f7f7f7;
+	text-decoration: blue;
+	}
+header li{
+
+	text-align: center;
+	display:inline-block;/* makes all list items appear on one line until screen become to narrow */
+	padding: 0.5em;
+	padding-left:1.5em;
+	padding-right:1.5em;
+	border-right: 1px solid #c8c8c8;
+	border-left:0;
+
+	}
+
+header li:hover{
+	background: blue;
+	color:#f7f7f7;
+	border-bottom: 1px solid blue;
+	border-right: 1px solid blue;
+	}
+
+main{
+	float: left;
+	background:#cccccc;
+	width:62.5%;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin-bottom:10px;
+	}
+main a:link{
+	color:red;
+	font-weight:bold;
+	text-decoration: none;
+	}
+main a:hover{
+	text-decoration: underline;
+	}
+main a:visited{
+	font-weight:bold;
+	color: #FF00FF;
+	}
+main h5{
+	padding-left:2em;
+	color:dimgrey; 
+	}
+article {
+	clear:both;
+	display:inline-block;
+	margin-left:1em;
+	margin-right:1em;
+	padding-top:1em;
+	padding-bottom:1em;
+	border-top: 1px solid grey;
+	text-align: justify;
+	}
+article.first{
+	border-top: none;
+	padding-top: 0;
+	}
+article img{
+	padding-right: 1em;
+	width:200px;
+	float:left;
+
+	}
+article p{
+	padding: 0;
+	margin:0;
+	}
+aside a:link{
+	color:darkblue;
+	text-align: justify;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight:bold;
+	}
+aside a:hover{
+	text-decoration: underline;
+	}
+aside a:visited{
+	color: darkblue;
+	}
+aside h2{
+	text-align: center;
+	color:darkblue;
+	text-transform: uppercase;
+	}
+aside ul{
+	text-align: center;
+	padding: 0;
+	}
+aside p{
+	padding-bottom: 1em;
+	color:darkblue;
+	font-weight: normal;
+	}
+aside{	
+	float:right;
+	width: 28%;
+	background: #f7f7f7;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin-bottom:10px;
+	border: 1px solid #c8c8c8;
+	}
+
+footer{
+	text-align: center;
+
+	clear: both;
+	border-top: 2px solid #c8c8c8;
+	color:dimgrey;
+	}
+footer li{
+	display:inline-block;/* makes all list items appear on one line until screen become to narrow */
+
+	}
+
+footer img:hover{
+		opacity:0.7;
+	}
+footer a:hover{
+
+	}
+.links li{
+		text-align: center;
+		display:inline-block;/* makes all list items appear on one line until screen become to narrow */
+		border-right: 1px solid #c8c8c8;
+		padding: 0.5em;
+	}
+footer .last{
+		border-right: none;
+	}
+
+table{
+	font-family: "Trebuchet MS";
+	background:white;
+	font-size:0.85em;
+	border: 2px solid dodgerblue;
+	border-collapse: collapse;
+	}
+th{
+	text-align: left;
+	background:dodgerblue;
+	color:white;
+	padding:1em;
+	border: 2px solid dodgerblue;
+	}
+td{
+	border: 2px solid dodgerblue;
+	padding:0 1em;
+	}
+tr.even{
+	background: linear-gradient(to top, aliceblue, steelblue);
+	}
+h3{
+	background:blue;
+	color:white;
+	}
+h4{
+	color:red;
+}
+
+fieldset {
+	background-color: #f1f1f1;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+
+
+label {
+	display:inline-block;
+	cursor: pointer;
+	text-align: right;
+
+
+}
+
+
+.field-large {
+
+	vertical-align: top;
+	width: 250px;
+}
+.row{
+
+	float:right;
+	padding: 0.25em;
+	position: relative;
+	right:10%;
+	max-width:90%;
+	clear:both;
+}
+
+.btn {
+	clear: both;
+	background-color: blue;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px #333;
+	color:white;
+	position: relative;
+	left:80%;
+
+}
+
+.radios .contact{	
+	padding:1em;
+	position: relative;
+	left:3em;
+	text-align: right;
+}
+.radios {
+	background-color: transparent;
+	clear: both;
+	
+}
+.radios li{
+	display:inline-block;
+	width: 125px;
+
+}
+fieldset ul{
+	float:right;
+	text-align: left;
+}
+
+

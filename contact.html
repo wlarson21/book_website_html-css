@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+	<head>	
+		<meta charset="utf-8"/>
+		<title>Contact</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" media="only screen and (max-width: 47em)" href="css/media.css"/>			
+	</head>
+	
+	<body>
+	<div class= "container clearfix">
+	<header>
+		<img src="img/header.jpg" title="header.jpg" alt= "header" />
+		<ol role="navigation">
+			<a href="index.html"><li>Home</li></a> 
+			<a href="books.html"><li>Books </li></a>
+			<a href="about.html"><li>About </li></a>
+			<a href="details.html"><li>Details </li></a>
+			<a href="contact.html"><li>Contact </li></a>
+		</ol>
+	</header>
+		<h1>Contact Me</h1>
+	<main role="main">
+			
+		<article class="first">
+			<h4><b>Please fill out all the below fields<b></h4>	
+			<p> Please fill free to contact me with questions or comments. All fields below are required so that I am able to properly resond back.</p>
+			<h3> Contact William Larson</h3>
+			<div>
+				<p class="row">
+					<label for="first-name"> First Name:</lable>
+					<input type = "text" id="first-name" required="required" placeholder= "First Name" name="first_name" class="field-large"/>
+				</p>
+				<p class="row">
+					<label for="last-name"> Last Name:</lable>
+					<input type = "text" id="last-name" required="required" placeholder= "Last Name" name="last_name" class="field-large"/>
+				</p> 
+				<p class="row">
+					<label for="email"> Email:</lable>
+					<input type = "email" id="email" required="required" placeholder= "youremail@example.com" name="email" class="field-large"/>
+				</p> 
+				<p class="row">
+					<label for="phone"> Phone Number:</lable>
+					<input type = "tel" id="phone" required="required" placeholder= "(###)###-####" name="first_name" class="field-large" pattern="(\d{3})\d{3}-\d{4}" />
+				</p> 
+ 				<p class="row">
+					<label for="bio">Bio:</label>
+					<textarea id="bio" name="bio" cols="40" rows="10" class="field-large"></textarea>
+				</p>
+				<p class="row">
+					
+					<fieldset class="radios">
+						<label class="contact">Contact:</label>
+						<ul id="contact">
+							
+							<li >
+								<input type="radio" id="business" name="contact" value="business" />
+								<label for="business">Business</label>
+							</li>
+							<li>
+								<input type="radio" id="indiviudal" name="contact" value="indiviudal" />
+								<label for="indiviudal">Indiviudal</label>
+							</li>
+						</ul>
+					</fieldset>
+				</p>
+				<input type="submit" value="Submit" class="btn" />
+
+			</div>
+		</article>
+
+	</main>
+	
+
+
+	
+	<aside role="complementary">
+		<h2>Recent Books</h2>
+		<ul> 
+			<li><p><a href="books.html#book1">On the Shoulders of Giants: </a> Nicolaus Copernicus, Johannes Kepler, Galileo Galalei, Isaac Newton, Albert Einstein, Stephen Hawking  </p></li>
+			<li><p><a href="books.html#book2">Harry Potter: </a> J.K. Rowling </p></li>
+			<li><p><a href="books.html#book3">Fundamentals of Materials Science and Engineering: </a> William D. Callister Jr.</p> </li>
+		</ul>
+	</aside>
+	
+	<footer role = "contentinfo">
+		<ul>
+			<li><a href="http://www.facebook.com/"><img src="img/facebook-icon.png" alt= "Facebook Icon" /> </a> </li>
+			<li><a href="http://www.twitter.com/"><img src="img/twitter-icon.png"  alt= "Twitter Icon" /> </a> </li>
+			<li><a href="https://www.linkedin.com/"><img src="img/linkedin-icon.png" alt= "LinkedIn Icon" /></a> </li>
+			<li><a href="https://www.pinterest.com/"><img src="img/pinterest-icon.png" alt= "Pintrest Icon" /></a> </li>
+		</ul>
+		<small><ol role="navigation" class="links">
+			<li><a href="index.html">Home </a> </li>
+			<li><a href="books.html">Books </a> </li>
+			<li><a href="about.html">About </a> </li>
+			<li><a href="details.html">Details </a> </li>
+			<li class= "last"><a href="contact.html">Contact </a> </li>
+		<small></ol>
+		<p><small>&copy 2018; Willaim Larson, All Rights Reserved</small></p>
+	</footer>
+	</div>
+	</body>
+
+</html> 
